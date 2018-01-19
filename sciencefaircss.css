@@ -9,11 +9,14 @@
 img {
     width: 100%;
     height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .headone {
     text-align: center;
-    color: #1b3807
+    color: #1b3807;
+    margin-top: 60px  
 }
 
 ul {
@@ -21,7 +24,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,15 +32,16 @@ ul {
 
 li {
     float: left;
-    border-right: 1px solid #bbb;
+    /* if using border: border-right: 1px solid #bbb; */
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
+    background-color: #c0e295
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -49,8 +53,21 @@ li a:hover {
     background-color: #4CAF50;
 }
 
+/* If using borders
 li:last-child {
     border-right: none;
 }
-Try it Yourself »
+*/
 
+.abt {
+    color: #1b3807;
+    text-align: center;
+}
+
+hr {
+    border-color: #1b3807; 
+}
+
+.textone {
+    color: #1b3807
+}
